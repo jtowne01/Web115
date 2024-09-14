@@ -13,7 +13,7 @@ body {
     color: #FFFFFF; 
     margin: 0;
     padding: 0;
-    text-align: center; 
+    text-align: left; 
 }
 
 
@@ -54,10 +54,18 @@ header img {
 
 
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     color: #FF0000; 
     margin-top: 0;
     text-align: center; 
+}
+
+h2, h3, h4, h5, h6 {
+    color: #FF0000;
+    margin-top: 0;
+    text-align: left; 
+    margin-left: 10%; 
+    margin-right: 10%; 
 }
 
 
@@ -79,10 +87,12 @@ footer a:hover {
 }
 
 main p {
-font-size: 18px;
-	
-	
+    font-size: 18px;
+    text-align: left; 
+    margin-left: 10%; 
+    margin-right: 10%; 
 }
+
 
 main ul {
     list-style-type: none; 
