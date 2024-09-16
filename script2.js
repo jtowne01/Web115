@@ -9,7 +9,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
         return;
     }
     let greetingMessage = `Hello, ${firstName} ${middleInitial ? middleInitial + "." : ""} ${lastName}!`;
-    document.getElementById("user-greeting").innerText = greetingMessage;
+    document.getElementById("greeting").innerText = greetingMessage;
 
     let countTo = prompt(`${firstName}, how high do you want to count?`);
     
