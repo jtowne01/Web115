@@ -100,11 +100,14 @@ form {
 }
 
 fieldset {
-    margin: 0 auto; 
-    width: 150px; 
-   /* padding: 20px; */
-    background: #B8860B;
-    border: 3px solid #333;
+  margin: 0 auto; 
+  width: 150px; 
+  background: #333;
+  padding: 3px;
+}
+
+fieldset > * {
+  background: #B8860B;
 }
 
 button {
