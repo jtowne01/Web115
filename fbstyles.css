@@ -20,7 +20,6 @@ body {
     text-align: center; 
 }
 
-
 nav {
     background-color: #B8860B; 
     padding: 10px;
@@ -50,13 +49,11 @@ nav a:hover {
 }
 
 header img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto 0; 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0; 
 }
-
-
 
 h1, h2, h3, h4, h5, h6 {
     color: #FF0000; 
@@ -64,12 +61,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center; 
 }
 
-
 footer {
     background-color: #B8860B; 
     padding: 10px;
     text-align: center; 
-	margin-top: 350px;
+    margin-top: 350px;
 }
 
 footer a {
@@ -83,9 +79,7 @@ footer a:hover {
 }
 
 main p {
-font-size: 18px;
-	
-	
+    font-size: 18px;
 }
 
 main ul {
@@ -97,82 +91,6 @@ main ul {
 
 main li {
     list-style-type: none; 
-}
-
-form {
-  width: 60vw;
-  max-width: 500px;
-  min-width: 300px;
-  margin: 0 auto;
-  padding-bottom: 2em;	
-}
-
-fieldset {
-margin: 0 auto; 
-width: 150px 
-padding: 20px;
-background:#B8860B;
-border: 3px solid #333;
-}
-
-button {
-  display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: 
-  border-color: black;
-  min-width: 300px;
-  border: 3px solid #333;
-}
-
-input {
-  width: 50%;
-  padding: 8px;
-  border: 2px solid black;
-  border-radius: 4px;
-}
-
- #fizzbuzz-output {
-   font-family: Arial, sans-serif;
-   line-height: 1.5;
-   white-space: pre-wrap; 
-    }
- 
- #fizzBuzzList {
-   list-style-type: none;
-   padding: 0;
- }
- 
- #fizzBuzzList li {
-   margin-bottom: 5px;
-
-}
- #fizzbuzz-number {
-    display: inline-block;
-    width: 30px;
-    text-align: right;
-    margin-right: 10px;
- }
- 
- ul {
-	 padding-left: 0;
-	 margin-left:0
-	 list-style-position: inside;
- }
- li {
-	 text-align:left;
- }
- 
- #output {
-text-align: center;	 
- }
- 
- main {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
 }
 
 form {
@@ -197,7 +115,7 @@ button {
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #FFFFFF; /* Added */
+    background-color: #FFFFFF; /* Fixed */
     border: 3px solid #333;
     min-width: 300px;
 }
@@ -209,23 +127,10 @@ input {
     border-radius: 4px;
 }
 
-#output {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-
-#userGreeting {
-    margin-bottom: 20px;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-#fizzBuzzContainer {
-    width: 100%;
-    max-width: 600px;
-    text-align: left;
+#fizzbuzz-output {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    white-space: pre-wrap; 
 }
 
 #fizzBuzzList {
@@ -256,3 +161,8 @@ input {
         -moz-columns: 1;
     }
 }
+
+#output {
+    text-align: center;	 
+}
+
