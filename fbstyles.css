@@ -7,6 +7,10 @@
    Filename: brandstyles.css
 */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #D2B48C; 
     font-family: Georgia, serif;
@@ -193,7 +197,7 @@ button {
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* Added */
     border: 3px solid #333;
     min-width: 300px;
 }
