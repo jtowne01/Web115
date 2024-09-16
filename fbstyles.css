@@ -108,14 +108,14 @@ fieldset {
 }
 
 button {
-    display: block;
-   /* width: 60%; */
-    margin: 1em auto;
-    /* height: 2em; */
-    font-size: 1.1rem;
-    background-color: #FFFFFF;  Fixed 
-    border: 3px solid #333;
-    min-width: 300px;
+  display: block;
+  /* width: 60%; */
+  margin: 1em auto;
+  /* height: 2em; */
+  font-size: 1.1rem;
+  background-color: #FFFFFF;
+  border: 3px solid #333;
+  min-width: 300px;
 }
 
 input {
