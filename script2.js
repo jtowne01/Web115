@@ -20,8 +20,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
         return;
     }
 
-    generateList(countTo);
-});
+
 
 function generateList(count) {
     const list = document.getElementById("fizz-buzz-list");
@@ -35,3 +34,5 @@ function generateList(count) {
         list.appendChild(listItem);
     }
 }
+    generateList(countTo);
+});
