@@ -17,9 +17,6 @@ document.getElementById("nameForm").addEventListener("submit", function(event) {
     document.getElementById("userGreeting").innerText = greetingMessage;
 
 
-    generateFizzBuzz();
-});
-
 function generateFizzBuzz() {
     const fizzBuzzList = document.getElementById("fizzBuzzList");
     fizzBuzzList.innerHTML = ""; 
@@ -38,3 +35,10 @@ function generateFizzBuzz() {
         fizzBuzzList.appendChild(listItem);
     }
 }
+
+
+
+    generateFizzBuzz();
+});
+
+
