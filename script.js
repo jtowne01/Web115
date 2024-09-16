@@ -21,12 +21,10 @@ function generateFizzBuzz() {
     fizzBuzzList.innerHTML = ""; 
 
   
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= 125; i++) {
         let listItem = document.createElement("li");
-        let result = "";
+        let result = "Jumpy Tarantulas";
 
-        if (i % 3 === 0) result += "Jumpy";
-        if (i % 5 === 0) result += "Tarantula";
         if (result === "") result = i;
 
        
@@ -39,4 +37,3 @@ function generateFizzBuzz() {
 
     generateFizzBuzz();
 });
-
