@@ -13,7 +13,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
 
 
     let greetingMessage = `Hello, ${firstName} ${middleInitial ? middleInitial + "." : ""} ${lastName}!`;
-    document.getElementById("user-greeting").innerText = greetingMessage;
+    document.getElementById("greeting").innerText = greetingMessage;
 
 
 function generateFizzBuzz() {
