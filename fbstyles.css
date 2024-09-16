@@ -101,7 +101,7 @@ form {
 
 fieldset {
     margin: 0 auto; 
-    width: 150px; 
+   /* width: 150px; */
    /* padding: 20px; */
     background: #B8860B;
     border: 3px solid #333;
