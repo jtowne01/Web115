@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Jason Towne's Jumpy Tarantula Brand Stylesheet
+   
+   Filename: brandstyles.css
+*/
+
+body {
+    background-color: #D2B48C; 
+    font-family: Georgia, serif;
+    color: #FFFFFF; 
+    margin: 0;
+    padding: 0;
+    text-align: left; 
+}
+
+
+nav {
+    background-color: #B8860B; 
+    padding: 10px;
+    text-align: center; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+nav li {
+    display: inline; 
+}
+
+nav a {
+    color: #000000; 
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #E0FFFF; 
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto 0; 
+}
+
+
+
+h1 {
+    color: #FF0000; 
+    margin-top: 0;
+    text-align: center; 
+}
+
+h2, h3, h4, h5, h6 {
+    color: #FF0000;
+    margin-top: 0;
+    text-align: left; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+}
+
+
+footer {
+    background-color: #B8860B; 
+    padding: 10px;
+    text-align: center; 
+	margin-top: 350px;
+}
+
+footer a {
+    color: #000000; 
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer a:hover {
+    color: #E0FFFF; 
+}
+
+main p {
+    font-size: 18px;
+    text-align: left; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+}
+
+
+main ul {
+    list-style-type: none; 
+    padding: 0;
+    text-align: center; 
+    margin: 0 0 20px; 
+}
+
+main li {
+    list-style-type: none; 
+}

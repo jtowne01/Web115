@@ -1,0 +1,133 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Jason Towne's Jumpy Tarantula Brand Stylesheet
+   
+   Filename: brandstyles.css
+*/
+body {
+    background-color: #D2B48C; 
+    font-family: Georgia, serif;
+    color: #FFFFFF; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+nav {
+    background-color: #B8860B; 
+    padding: 10px;
+    text-align: center; 
+}
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+nav li {
+    display: inline; 
+}
+nav a {
+    color: #000000; 
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav a:hover {
+    color: #E0FFFF; 
+}
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0; 
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #FF0000; 
+    margin-top: 0;
+    text-align: center; 
+}
+footer {
+    background-color: #B8860B; 
+    padding: 10px;
+    text-align: center; 
+    margin-top: 350px;
+}
+footer a {
+    color: #000000; 
+    text-decoration: none;
+    margin: 0 15px;
+}
+footer a:hover {
+    color: #E0FFFF; 
+}
+main p {
+    font-size: 18px;
+}
+main ul {
+    list-style-type: none; 
+    padding: 0;
+    text-align: center; 
+    margin: 0 0 20px; 
+}
+main li {
+    list-style-type: none; 
+}
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;    
+}
+fieldset {
+    margin: 0 auto; 
+    /* width: 150px; */
+    background: #B8860B;
+    border: 3px solid #333;
+}
+button {
+    display: block;
+    margin: 1em auto;
+    font-size: 1.1rem;
+    background-color: #FFFFFF;
+    border: 3px solid #333;
+    min-width: 300px;
+}
+input {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#fizzbuzz-output {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    white-space: pre-wrap; 
+}
+#fizz-buzz-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+#fizz-buzz-list li {
+    margin-bottom: 5px;
+    break-inside: avoid-column;
+}
+.fizzbuzz-number {
+    display: inline-block;
+    width: 30px;
+    text-align: right;
+    margin-right: 10px;
+}
+@media (max-width: 768px) {
+    #fizz-buzz-list {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+}
+#output {
+    text-align: center;	 
+}
