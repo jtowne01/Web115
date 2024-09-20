@@ -101,6 +101,10 @@ main ul {
     margin: 0 0 20px; 
 }
 
+#courses {
+    text-align: left;
+    padding-left: 200px;
+}
 main li {
     list-style-type: none; 
 }
