@@ -8,7 +8,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
         alert("First Name and Last Name are required!");
         return;
     }
-    let greetingMessage = `Hello, ${firstName} ${middleInitial ? middleInitial + "." : ""} ${lastName}!`;
+    let greetingMessage = `Welcome to Jumpy Tarantula, ${firstName} ${middleInitial ? middleInitial + "." : ""} ${lastName}!`;
     document.getElementById("greeting").innerText = greetingMessage;
 
     let countTo = prompt(`${firstName}, how high do you want to count?`);
