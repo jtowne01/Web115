@@ -93,8 +93,8 @@ fieldset {
     border-radius: 25px;
     background: #B8860B;
     padding: 20px;
-    width: 200px;
-    height: 150px;
+    /*  width: 200px; */
+   /* height: 150px; */
 }
 button {
     display: block;
