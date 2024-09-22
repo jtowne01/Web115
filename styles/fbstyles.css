@@ -6,12 +6,12 @@
    Filename: brandstyles.css
 */
 body {
-    background-color: #D2B48C; 
+    background-color: #AD8A56; 
     font-family: 'Brush Script MT', cursive;
-    color: #793247; 
-    margin: 0;
+    color: #B4B4B4; 
+    margin: 2px;
     padding: 0;
-    text-align: center; 
+    text-align: left; 
 }
 nav {
     background-color: #B8860B; 
@@ -42,10 +42,18 @@ header img {
     display: block;
     margin: 20px auto 0; 
 }
-h1, h2, h3, h4, h5, h6 {
-    color: #FF0000; 
+h1 {
+    color: #841617; 
     margin-top: 0;
     text-align: center; 
+}
+
+h2, h3, h4, h5, h6 {
+    color: #841617;
+    margin-top: 0;
+    text-align: left; 
+    margin-left: 10%; 
+    margin-right: 10%; 
 }
 footer {
     background-color: #B8860B; 
