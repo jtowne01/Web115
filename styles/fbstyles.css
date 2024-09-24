@@ -6,18 +6,22 @@
    Filename: brandstyles.css
 */
 body {
-    background-color: #AD8A56; 
-    font-family: 'Brush Script MT', cursive;
-    color: #B4B4B4; 
-    margin: 2px;
+    background-color: #2c3e50; 
+    font-family: Tahoma, sans-serif;
+    color: #ecf0f1; 
+    margin: auto;
+    height: 100%;
+    width: 95%;
     padding: 0;
     text-align: center; 
 }
+
 nav {
-    background-color: #B8860B; 
+    background-color: #34495e; 
     padding: 10px;
     text-align: center; 
 }
+
 nav ul {
     list-style-type: none; 
     margin: 0;
@@ -25,17 +29,21 @@ nav ul {
     display: flex;
     justify-content: center; 
 }
+
 nav li {
     display: inline; 
 }
+
 nav a {
-    color: #000000; 
+    color: #f39c12; 
     text-decoration: none;
     margin: 0 15px;
 }
+
 nav a:hover {
     color: #E0FFFF; 
 }
+
 header img {
     max-width: 100%;
     height: auto;
@@ -43,44 +51,56 @@ header img {
     margin: 20px auto 0; 
 }
 h1 {
-    color: #841617; 
-    margin-top: 0;
+    color: #e67e22; 
+    margin-top: 0; 
     text-align: center; 
+    font-family: 'Brush Script MT', cursive;
 }
 
 h2, h3, h4, h5, h6 {
-    color: #841617;
+    color: #e67e22;
     margin-top: 0;
     text-align: left; 
     margin-left: 10%; 
     margin-right: 10%; 
+    padding-top: 25px;
+    font-family: 'Brush Script MT', cursive;
 }
 footer {
-    background-color: #B8860B; 
+    background-color: #34495e; 
     padding: 10px;
     text-align: center; 
-    margin-top: 350px;
+	margin-top: 350px;
 }
+
 footer a {
-    color: #000000; 
+    color: #f39c12; 
     text-decoration: none;
     margin: 0 15px;
 }
+
 footer a:hover {
-    color: #E0FFFF; 
+    color: #d35400; 
 }
+
 main p {
-    font-size: 18px;
+    font-size: 24px;
+    text-align: left; 
+    margin-left: 10%; 
+    margin-right: 10%; 
 }
+
 main ul {
     list-style-type: none; 
     padding: 0;
     text-align: center; 
     margin: 0 0 20px; 
 }
+
 main li {
     list-style-type: none; 
 }
+
 form {
     width: 60vw;
     max-width: 500px;
@@ -88,14 +108,16 @@ form {
     margin: 0 auto;
     padding-bottom: 2em;    
 }
+
 fieldset {
     border: 4px solid black;
     border-radius: 25px;
-    background: #B8860B;
+    background-color: #34495e;
     padding: 20px;
     /*  width: 200px; */
    /* height: 150px; */
 }
+
 button {
     display: block;
     margin: 1em auto;
@@ -104,15 +126,18 @@ button {
     border: 3px solid #333;
     min-width: 300px;
 }
+
 input {
     border: 2px solid black;
     border-radius: 4px;
 }
+
 #fizzbuzz-output {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     white-space: pre-wrap; 
 }
+
 #fizz-buzz-list {
     list-style-type: none;
     padding: 0;
@@ -121,16 +146,19 @@ input {
     -webkit-columns: 2;
     -moz-columns: 2;
 }
+
 #fizz-buzz-list li {
     margin-bottom: 5px;
     break-inside: avoid-column;
 }
+
 .fizzbuzz-number {
     display: inline-block;
     width: 30px;
     text-align: right;
     margin-right: 10px;
 }
+
 @media (max-width: 768px) {
     #fizz-buzz-list {
         columns: 1;
@@ -138,6 +166,7 @@ input {
         -moz-columns: 1;
     }
 }
+
 #output {
     text-align: center;	 
 }
