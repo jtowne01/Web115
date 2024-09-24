@@ -6,19 +6,19 @@
    
    Filename: brandstyles.css
 */
-
-body {
-    background-color: #AD8A56; 
-    font-family: 'Brush Script MT', cursive;
-    color: #B4B4B4; 
-    margin: 2px;
-    padding: 0;
-    text-align: center; 
+    body {
+        background-color: #2c3e50; 
+        font-family: Tahoma, sans-serif;
+        color: #ecf0f1; 
+        margin: auto;
+        height: 100%;
+        width: 95%;
+        padding: 0;
+        text-align: center; 
 }
 
-
 nav {
-    background-color: #B8860B; 
+    background-color: #34495e; 
     padding: 10px;
     text-align: center; 
 }
@@ -36,7 +36,7 @@ nav li {
 }
 
 nav a {
-    color: #000000; 
+    color: #f39c12; 
     text-decoration: none;
     margin: 0 15px;
 }
@@ -45,46 +45,72 @@ nav a:hover {
     color: #E0FFFF; 
 }
 
-
 h1 {
-    color: #841617; 
-    margin-top: 0;
+    color: #e67e22; 
+    margin-top: 0; 
     text-align: center; 
+    font-family: 'Brush Script MT', cursive;
 }
 
 h2, h3, h4, h5, h6 {
-    color: #841617;
+    color: #e67e22;
     margin-top: 0;
     text-align: left; 
     margin-left: 10%; 
     margin-right: 10%; 
+    padding-top: 25px;
+    font-family: 'Brush Script MT', cursive;
 }
 
-
 footer {
-    background-color: #B8860B; 
+    background-color: #34495e; 
     padding: 10px;
     text-align: center; 
+	margin-top: 350px;
 }
 
 footer a {
-    color: #000000; 
+    color: #f39c12; 
     text-decoration: none;
     margin: 0 15px;
 }
 
 footer a:hover {
-    color: #E0FFFF; 
+    color: #d35400; 
 }
 
+main p {
+    font-size: 24px;
+    text-align: left; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+}
 
 main ul {
     list-style-type: none; 
     padding: 0;
-    text-align: center; 
+    text-align: left; 
     margin: 0 0 20px; 
 }
 
 main li {
     list-style-type: none; 
+}
+
+#brandcolors {
+    color: #ecf0f1; 
+    margin: auto;
+    height: 100%;
+    padding-left: 20%;
+    text-align: left; 
+}
+
+#unique-heading {
+    color: #ff0707;
+    margin-top: 0;
+    text-align: center; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+    padding-top: 25px;
+    font-family: 'Brush Script MT', arial;
 }
