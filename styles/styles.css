@@ -31,7 +31,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center; 
-    color:  #e67e22;
+    color: #FFD700;
 }
 
 nav li {
@@ -39,7 +39,7 @@ nav li {
 }
 
 nav a {
-    color: #FFD700;  
+    color: #FFD700; 
     text-decoration: none;
     margin: 0 15px;
     font-size: 20px;
@@ -79,6 +79,7 @@ footer {
     padding: 10px;
     text-align: center; 
 	margin-top: 350px;
+    color: #FFD700;
 }
 
 footer a {
