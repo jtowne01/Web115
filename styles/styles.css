@@ -38,9 +38,10 @@ nav li {
 }
 
 nav a {
-    color: #f39c12; 
+    color: #e67000; 
     text-decoration: none;
     margin: 0 15px;
+    font-size: 20px;
 }
 
 nav a:hover {
@@ -53,8 +54,6 @@ header img {
   display: block;
   margin: 20px auto 0; 
 }
-
-
 
 h1 {
     color: #e67e22; 
@@ -82,9 +81,10 @@ footer {
 }
 
 footer a {
-    color: #f39c12; 
+    color: #e67000; 
     text-decoration: none;
     margin: 0 15px;
+    size: 20px;
 }
 
 footer a:hover {
