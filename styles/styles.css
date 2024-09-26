@@ -21,7 +21,7 @@ body {
 
 nav {
     background-color: #34495e; 
-    padding: 10px;
+    padding: 20px;
     text-align: center; 
 }
 
@@ -60,7 +60,7 @@ h1 {
     color: #FFD700; 
     margin-top: 0; 
     text-align: center; 
-    font-family: 'Brush Script MT';
+    font-family: 'Quicksand', sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
@@ -70,7 +70,7 @@ h2, h3, h4, h5, h6 {
     margin-left: 10%; 
     margin-right: 10%; 
     padding-top: 25px;
-    font-family: 'Brush Script MT';
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -133,4 +133,15 @@ body a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#page-name {
+    color: #FFD700;
+    margin-top: 0;
+    text-align: left; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+    padding-top: 25px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: underline;
 }
