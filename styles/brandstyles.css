@@ -51,7 +51,7 @@ h1 {
     color: #FFD700; 
     margin-top: 0; 
     text-align: center; 
-    font-family: 'Brush Script MT';
+    font-family: 'Quicksand', sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
@@ -61,7 +61,7 @@ h2, h3, h4, h5, h6 {
     margin-left: 10%; 
     margin-right: 10%; 
     padding-top: 25px;
-    font-family: 'Brush Script MT';
+    font-family: 'Quicksand', sans-serif;
 }
 
 footer {
@@ -93,8 +93,8 @@ main ul {
     list-style-type: none; 
     padding: 0;
     text-align: left; 
-    margin: 0 0 20px;
-	font-size: 24px;
+    margin: 0 0 20px; 
+    font-size: 24px;
 }
 
 main li {
@@ -117,4 +117,15 @@ main li {
     margin-right: 10%; 
     padding-top: 25px;
     font-family: 'Brush Script MT', arial;
+}
+
+#page-name {
+    color: #FFD700;
+    margin-top: 0;
+    text-align: left; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+    padding-top: 25px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: underline;
 }
