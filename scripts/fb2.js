@@ -11,13 +11,13 @@ function generateList(count) {
         let result = "";
 
         if (checkDivision(i, 5) && checkDivision(i, 8)) {
-            result = "The Number is Divisible by both 5 and 8.";
+            result = " Divisible by both 5 and 8.";
         } else if (checkDivision(i, 5)) {
-            result = "This Number is Divisible by 5";
+            result = " Divisible by 5";
         } else if (checkDivision(i, 8)) {
-            result = "This Number is Divisible by 8";
+            result = " Divisible by 8";
         } else {
-            result = "This Number is Not Divisible by 5 or 8";
+            result = " Not Divisible by 5 or 8";
         }
 
         listItem.innerHTML = `<span class="number">${i}.</span> ${result}`;
