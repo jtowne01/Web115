@@ -78,7 +78,7 @@ footer {
     background-color: #34495e; 
     padding: 10px;
     text-align: center; 
-margin-top: 150px;
+	margin-top: 150px;
     color: #FFD700;
 }
 
@@ -100,17 +100,6 @@ main p {
     margin-right: 10%; 
 }
 
-
-main ul {
-    list-style-type: none; 
-    padding: 0;
-    text-align: center; 
-    margin: 0 0 20px; 
-}
-
-main li {
-    list-style-type: none; 
-}
 
 #courses {
     text-align: left;
@@ -143,7 +132,6 @@ body a {
     margin-right: 10%; 
     padding-top: 25px;
     font-family: 'Quicksand', sans-serif;
-    text-decoration: underline;
 }
 
 #fb-index {
@@ -152,4 +140,20 @@ body a {
     text-align: center; 
     font-family: 'Quicksand', sans-serif;
     font-size: 22px;
+}
+  
+  .intro {
+    list-style: initial; 
+    margin-left: -15px; 
+    padding-left: 5px; 
+  }
+
+  ul {
+    list-style: disc; 
+    padding-left: 15px; 
+}
+
+ul li {
+    margin-left: -1px; 
+    padding-left: 5px;  
 }
