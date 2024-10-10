@@ -3,7 +3,7 @@
    New Perspectives on HTML5 and CSS3, 8th Edition
    Jason Towne's Jumpy Tarantula Brand Stylesheet
    
-   Filename: brandstyles.css
+   Filename: fbstyles.css
 */
 body {
     background-color: #2c3e50; 
@@ -18,7 +18,7 @@ body {
 
 nav {
     background-color: #34495e; 
-    padding: 10px;
+    padding: 30px;
     text-align: center; 
 }
 
@@ -153,12 +153,13 @@ input {
 #fizz-buzz-list li {
     margin-bottom: 5px;
     break-inside: avoid-column;
+    align-items: right;
 }
 
 .fizzbuzz-number {
     display: inline-block;
     width: 30px;
-    text-align: right;
+    text-align: left;
     margin-right: 10px;
 }
 
@@ -176,6 +177,8 @@ input {
     font-family: 'Quicksand', sans-serif;
     margin-left: 10%; 
     margin-right: 10%; 
+    display: flex;
+    align-items: center;
 }
 
 #page-name {
@@ -186,5 +189,4 @@ input {
     margin-right: 10%; 
     padding-top: 25px;
     font-family: 'Quicksand', sans-serif;
-    text-decoration: underline;
 }
