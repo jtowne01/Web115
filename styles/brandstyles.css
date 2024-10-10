@@ -110,7 +110,7 @@ main li {
 }
 
 #unique-heading {
-    color: #ff0707;
+    color: #FF9E9E;
     margin-top: 0;
     text-align: center; 
     margin-left: 10%; 
@@ -127,5 +127,9 @@ main li {
     margin-right: 10%; 
     padding-top: 25px;
     font-family: 'Quicksand', sans-serif;
-    text-decoration: underline;
+}
+
+#slogan {
+    text-align: center;
+    font-size: 12px;
 }
